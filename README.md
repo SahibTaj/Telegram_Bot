@@ -63,14 +63,18 @@ BOT_USERNAME: Final = '@your_bot_username'
 Save the file.
 
 ### ▶️ Run the Bot
+```bash
 python main.py
+```
 
+You should see:
 
-### You should see:
-
+```bash
 Starting bot...
 Polling...
+```
 
 
 ### Now open Telegram and search for your bot username.
 ### Send a message like hello or /start and enjoy the sarcasm 😎
+
