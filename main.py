@@ -3,7 +3,9 @@ from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN: Final[str] = '8404203947:AAG2HqiMB0lDKll6kW7RXiBgcCnYWXpUzoA'
+from keys import YOUR_TELEGRAM_BOT_TOKEN_HERE
+
+TOKEN: Final[str] = YOUR_TELEGRAM_BOT_TOKEN_HERE
 BOT_USERNAME: Final = '@blackblackberry_blackberry_bot'
 
 #Commands
